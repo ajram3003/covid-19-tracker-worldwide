@@ -58,8 +58,8 @@
                .then((data)=>{
                  const countries = data.map((country)=>(
                    {
-                     name : country.country, usa,india
-                     value : country.countryInfo.iso2 UK,USA,FR
+                     name : country.country,// usa,india
+                     value : country.countryInfo.iso2 //UK,USA,FR
                    }
                  ));
 
@@ -108,7 +108,7 @@
   }
 
     return (
-       bem naming convention
+       //bem naming convention
       <div>
       <Header/>
       <div className="app">
